@@ -17,12 +17,10 @@ result: Response;
   ) { }
 
   getArticles(){
-              console.log("ds here");
              return this._http.get("/api/emagazine/articles/1")
               .map(result => this.result = result.json());
   }
   getAllArticles(){
-              console.log("ds tut");
              return this._http.get("/api/emagazine/articles")
               .map(result => this.result = result.json());
   }

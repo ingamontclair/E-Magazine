@@ -37,7 +37,7 @@ export class ArticleslistComponent implements OnInit {
            this.allItems = a;
            this.articles = a;
            this.setPage(1);
-           console.log(this.articles);
+           //console.log(this.allItems);
           });
         //console.log('articles');
   }
@@ -48,6 +48,11 @@ export class ArticleslistComponent implements OnInit {
 
       // get current page of items
       this.pagedItems = this.allItems.slice(this.pager.startIndex, this.pager.endIndex + 1);
+      console.log("allitems");
+      console.log(this.allItems);
+
+      console.log("pagedItems");
+      console.log(this.pagedItems);
   }
 
 }
