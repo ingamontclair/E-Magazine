@@ -13,6 +13,10 @@ public class EmagazineApplication extends Application {
   public EmagazineApplication() {
   }
 
+  /**
+   *
+   * @return entry point http://localhost:8085/api/
+   */
   @Override
   public Set<Object> getSingletons() {
     HashSet<Object> set = new HashSet<Object>();
@@ -20,7 +24,7 @@ public class EmagazineApplication extends Application {
     MongoClientURI uri = new MongoClientURI(
       "mongodb+srv://AdminEx:AdminEx@clusterex-cya5a.mongodb.net/test?retryWrites=true&w=majority");
     MongoClient mongoClient = new MongoClient(uri);
-    //
+
     set.add(new Emagazine(mongoClient));
     return set;
   }

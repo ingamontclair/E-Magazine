@@ -5,6 +5,7 @@ import { FormsModule }    from '@angular/forms';
 // Import the Http Module and our Data Service
 import { HttpModule } from '@angular/http';
 import { DataService } from './data.service';
+import { PagerService } from './pager.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -29,7 +30,7 @@ import { ArticleComponent } from './article/article.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [DataService, HeaderComponent],
+  providers: [DataService, HeaderComponent, PagerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

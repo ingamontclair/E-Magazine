@@ -16,9 +16,6 @@ article : Article;
      private dataService: DataService
     ) { }
 
-
-
-
   ngOnInit() {
         this.route.params.subscribe(params => {
            this.aId = params['aId']
@@ -28,7 +25,7 @@ article : Article;
         .subscribe(b => {
            this.article = b;
           });
-        console.log('article');
+        //console.log('article');
   }
 
 }
