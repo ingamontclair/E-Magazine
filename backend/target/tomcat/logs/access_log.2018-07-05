@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [05/Jul/2018:20:33:06 -0400] "GET / HTTP/1.1" 200 56 http-bio-8084-exec-1 78
+0:0:0:0:0:0:0:1 - - [05/Jul/2018:20:33:06 -0400] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8084-exec-3 1
+0:0:0:0:0:0:0:1 - - [05/Jul/2018:20:39:36 -0400] "GET / HTTP/1.1" 200 56 http-bio-8084-exec-5 13
+127.0.0.1 - - [05/Jul/2018:20:50:47 -0400] "GET /api/bonds/balance/81 HTTP/1.1" 200 11 http-bio-8084-exec-3 2693
+127.0.0.1 - - [05/Jul/2018:20:50:47 -0400] "GET /api/bonds/positions/81 HTTP/1.1" 200 273 http-bio-8084-exec-1 2730
+127.0.0.1 - - [05/Jul/2018:20:50:47 -0400] "GET /api/users HTTP/1.1" 200 2482 http-bio-8084-exec-10 2828
+127.0.0.1 - - [05/Jul/2018:20:51:20 -0400] "GET /api/users HTTP/1.1" 200 2482 http-bio-8084-exec-2 158
+127.0.0.1 - - [05/Jul/2018:20:51:24 -0400] "GET /api/users/inga@gmail.com/1234 HTTP/1.1" 200 184 http-bio-8084-exec-4 139
+127.0.0.1 - - [05/Jul/2018:20:51:24 -0400] "GET /api/bonds/balance/1 HTTP/1.1" 200 12 http-bio-8084-exec-6 95
+127.0.0.1 - - [05/Jul/2018:20:51:24 -0400] "GET /api/bonds/positions/1 HTTP/1.1" 200 349 http-bio-8084-exec-5 104

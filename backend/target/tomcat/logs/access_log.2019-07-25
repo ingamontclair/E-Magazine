@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:50:25 -0400] "GET / HTTP/1.1" 200 56 http-bio-8084-exec-1 79
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:16:50:26 -0400] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8084-exec-3 3
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:06:49 -0400] "GET / HTTP/1.1" 200 56 http-bio-8084-exec-5 13
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:09:52 -0400] "GET /api/articles/1 HTTP/1.1" 404 - http-bio-8085-exec-1 234
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:10:50 -0400] "GET /api/emagazine/articles/1 HTTP/1.1" 200 - http-bio-8085-exec-3 320
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:10:50 -0400] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8085-exec-5 5
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:20:36 -0400] "GET /api/emagazine/articles/1 HTTP/1.1" 200 8404 http-bio-8085-exec-1 497
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:25:42 -0400] "GET /api/emagazine/articles/3 HTTP/1.1" 200 9599 http-bio-8085-exec-4 51
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:44:26 -0400] "GET /api/emagazine/articles/3 HTTP/1.1" 200 9599 http-bio-8085-exec-1 903
+0:0:0:0:0:0:0:1 - - [25/Jul/2019:17:44:48 -0400] "GET /api/emagazine/article/5d39b114d7754183428259ee HTTP/1.1" 200 697 http-bio-8085-exec-3 36

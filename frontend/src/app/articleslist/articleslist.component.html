@@ -1,0 +1,19 @@
+<div>
+  <table class = "table table-striped table-bordered">
+
+    <thead>
+    <tr>
+      <th>TITLE</th>
+      <th>AUTHOR</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let article of articles">
+      <td><a target="_blank" href [routerLink]="['/content', article.aId]"> {{ article.title }} </a></td>
+      <td> {{ article.author }} </td>
+    </tr>
+    </tbody>
+
+  </table>
+</div>

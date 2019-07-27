@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:13:24:35 -0400] "GET /api/users HTTP/1.1" 200 770 http-bio-8084-exec-1 1064
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:13:24:35 -0400] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8084-exec-3 3
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:14:13:33 -0400] "GET /api/users/test HTTP/1.1" 200 134 http-bio-8084-exec-5 14
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:14:14:25 -0400] "GET /api/bonds HTTP/1.1" 200 806 http-bio-8084-exec-9 242
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:14:17:28 -0400] "GET /api/users/delete/25 HTTP/1.1" 200 - http-bio-8084-exec-2 67
